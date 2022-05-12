@@ -1,0 +1,37 @@
+.LoginBox {
+    border-radius: 10px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    height: 100%;
+    min-height: 500px;
+    max-height: 600px;
+    position: relative;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 10px 2px gray;
+    margin-right: 15vw;
+}
+
+.LoginLogo{
+    border-radius: 8px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.LoginBg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -999;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.error {
+    font-size: 12px;
+    color: #ff0000;
+}
